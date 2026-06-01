@@ -174,3 +174,107 @@ footer h3{
         font-size:36px;
     }
 }
+
+/* About Page */
+
+.about-hero{
+    padding:140px 0;
+    background:linear-gradient(
+    135deg,
+    #fff7f4,
+    #f8f0ed
+    );
+}
+
+.about-hero h1{
+    font-size:72px;
+    margin:25px 0;
+}
+
+.small-tag{
+    background:#f6ddd5;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+}
+
+.story-section{
+    padding:120px 0;
+}
+
+.story-section h2{
+    margin-bottom:25px;
+}
+
+.values-section{
+    padding:120px 0;
+    background:#faf5f2;
+}
+
+.value-card{
+    background:white;
+    padding:40px;
+    border-radius:24px;
+    height:100%;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.number{
+    font-size:50px;
+    font-weight:700;
+    color:#d5b1a4;
+    margin-bottom:20px;
+}
+
+.gallery-section{
+    padding:120px 0;
+}
+
+.gallery-img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+    border-radius:25px;
+}
+
+.stats-section{
+    padding:100px 0;
+    background:#fff7f3;
+}
+
+.stats-section h2{
+    font-size:50px;
+    color:#c79d90;
+}
+
+.cta-section{
+    padding:120px 0;
+}
+
+.btn-shop{
+    background:#d6b0a5;
+    color:white;
+    padding:14px 35px;
+    border-radius:50px;
+    margin-top:20px;
+}
+
+.btn-shop:hover{
+    background:#c89c90;
+    color:white;
+}
+
+@media(max-width:991px){
+
+    .about-hero{
+        padding:100px 0;
+    }
+
+    .about-hero h1{
+        font-size:48px;
+    }
+
+    .gallery-img{
+        height:320px;
+    }
+}
