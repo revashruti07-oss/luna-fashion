@@ -278,3 +278,356 @@ footer h3{
         height:320px;
     }
 }
+
+/* Collection Page  */
+
+.collection-hero{
+    padding:140px 0;
+    background:linear-gradient(
+    135deg,
+    #fff7f4,
+    #f7efeb
+    );
+}
+
+.collection-hero h1{
+    font-size:72px;
+    margin:20px 0;
+}
+
+.hero-tag{
+    background:#f7ddd5;
+    padding:8px 18px;
+    border-radius:40px;
+    font-size:14px;
+}
+
+/* FILTERS */
+
+.filters-section{
+    padding:30px 0;
+}
+
+.filter-wrapper{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.filter-wrapper button{
+    border:none;
+    background:#f4ece8;
+    padding:12px 25px;
+    border-radius:50px;
+}
+
+.filter-wrapper .active{
+    background:#d8b5a9;
+    color:white;
+}
+
+/* FEATURED */
+
+.featured-collection{
+    padding:100px 0;
+}
+
+.featured-img{
+    border-radius:30px;
+}
+
+.sub-heading{
+    color:#c79e91;
+    letter-spacing:2px;
+}
+
+.featured-collection h2{
+    font-size:56px;
+    margin:15px 0;
+}
+
+/* PRODUCTS */
+
+.products-section{
+    padding:100px 0;
+    background:#faf6f3;
+}
+
+.product-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+
+.product-card img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:20px;
+}
+
+.product-content span{
+    color:#c79e91;
+    font-weight:600;
+}
+
+/* LOOKBOOK */
+
+.lookbook-section{
+    padding:100px 0;
+}
+
+.lookbook-img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:25px;
+}
+
+/* PROMO */
+
+.promo-banner{
+    padding:90px 0;
+    background:#f7ebe6;
+}
+
+.promo-banner h2{
+    font-size:52px;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    padding:100px 0;
+}
+
+.newsletter h2{
+    font-size:56px;
+}
+
+.newsletter-form{
+    max-width:600px;
+    margin:auto;
+    margin-top:30px;
+    display:flex;
+}
+
+.newsletter-form input{
+    flex:1;
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:50px 0 0 50px;
+}
+
+.newsletter-form button{
+    border:none;
+    background:#d8b5a9;
+    color:white;
+    padding:15px 35px;
+    border-radius:0 50px 50px 0;
+}
+
+/* BUTTON */
+
+.btn-shop{
+    display:inline-block;
+    margin-top:20px;
+    background:#d8b5a9;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:50px;
+}
+
+.btn-shop:hover{
+    color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+.collection-hero h1{
+    font-size:46px;
+}
+
+.featured-collection h2{
+    font-size:40px;
+}
+
+.promo-banner h2{
+    font-size:36px;
+}
+
+.newsletter h2{
+    font-size:40px;
+}
+
+.lookbook-img{
+    height:350px;
+}
+
+}
+
+/* shop Page */
+
+.shop-hero{
+    padding:120px 0;
+    background:linear-gradient(
+    135deg,
+    #fff7f4,
+    #f8efeb
+    );
+}
+
+.shop-hero h1{
+    font-size:72px;
+    margin:20px 0;
+}
+
+.shop-tag{
+    background:#f6ddd5;
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:14px;
+}
+
+.hero-image{
+    border-radius:30px;
+}
+
+.filters-section{
+    padding:50px 0;
+}
+
+.search-box,
+.form-select{
+    height:55px;
+    border-radius:50px;
+}
+
+.filter-btn{
+    width:100%;
+    height:55px;
+    border:none;
+    background:#d8b5a9;
+    color:white;
+    border-radius:50px;
+}
+
+.promo-section{
+    padding-bottom:80px;
+}
+
+.promo-card{
+    background:#f8ebe5;
+    padding:50px;
+    border-radius:30px;
+}
+
+.products-section{
+    padding:100px 0;
+}
+
+.product-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+    transition:.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+
+.product-card img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:20px;
+}
+
+.shop-link{
+    text-decoration:none;
+    color:#c59a8d;
+    font-weight:600;
+}
+
+.category-section{
+    padding:100px 0;
+    background:#faf5f2;
+}
+
+.category-card{
+    background:white;
+    padding:80px 30px;
+    text-align:center;
+    border-radius:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+}
+
+.benefits-section{
+    padding:100px 0;
+}
+
+.newsletter{
+    padding:100px 0;
+    background:#fff7f4;
+}
+
+.newsletter-form{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    margin-top:30px;
+}
+
+.newsletter-form input{
+    flex:1;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:50px 0 0 50px;
+}
+
+.newsletter-form button{
+    border:none;
+    background:#d8b5a9;
+    color:white;
+    padding:15px 35px;
+    border-radius:0 50px 50px 0;
+}
+
+@media(max-width:991px){
+
+.shop-hero h1{
+    font-size:48px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+
+.newsletter-form{
+    flex-direction:column;
+    gap:15px;
+}
+
+.newsletter-form input,
+.newsletter-form button{
+    border-radius:50px;
+}
+
+}
